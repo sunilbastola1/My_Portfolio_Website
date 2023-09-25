@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    border: border-box;
+}
+
+/* Header CSS */
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #570DFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+    margin-right: 80px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.logo{
+    font-family: "League Spartan", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-left: 25px;
+}
+
+/* Body Section CSS */
+
+.body-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 160px 0;
+    background-color: #E5E4FC;
+}
+
+.body-sec-left{
+    max-width: 50%;
+    padding: 0 30px;
+    text-align: left;
+}
+
+.body-sec-right{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp-image{
+    height: 400px;
+}
+
+h1{
+    color: #570DFA;
+    font-size: 50px;
+    display: inline-block;
+}
+
+p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 350px;
+    word-wrap: normal;
+}
+
+.p-text {
+    color: black;
+    font-size: 20px;
+    width: 320px;
+    font-weight: lighter;
+}
+.hi-button{
+    background-color: #570DFA;
+    color: #E5E4FC;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border-color: #570DFA;
+    justify-content: center;
+}
+
+/* About section */
+
+.about-section {
+    background-color: #E5E4FC;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.about-h1{
+    font-size: 2.5rem;
+    color: black;
+    justify-content: center;
+}
+
+.about-h2 {
+    font-size: 1.8rem;
+    color: #570DFA;
+}
+
+.about-info {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 250px;
+}
+
+
+.about-p {
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+.about-left-section {
+    text-align: center;
+}
+
+.p-about-skills {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.skills-card-list {
+    display: flex;
+    flex-direction: row;   
+}
